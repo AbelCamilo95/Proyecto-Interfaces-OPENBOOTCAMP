@@ -19,6 +19,7 @@ public class CRUDCars implements interfaceCarsCRUD {
     public void addCar(Cars car) {
         cars.add(car);
         System.out.println(car);
+        System.out.println(cars);
 
     }
 
